@@ -1,13 +1,13 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class main {
     public static void main(String[] args) {
-        System.out.println("Losowanie 6 liczb");
-        int [] wylosowane =new int[6];
-        for(int i=0; i<wylosowane.length;i++){
-            wylosowane[i] =(int)(Math.random()*100 +1);
-        }
-        for(int wylosowaneWartosc :wylosowane){
-            System.out.println(wylosowaneWartosc+"");
-        }
+       Set<Integer> wylosowane = new HashSet<>();
+       for(int i = 0 ; i<6;i++){
+           wylosowane.add((int)(Math.random()*10));
+       }
+        System.out.println("wylosowane:"+wylosowane);
     }
 }
 
