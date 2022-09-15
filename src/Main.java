@@ -8,6 +8,7 @@ public class Main {
 
 
         List<Integer> wpisane = new ArrayList<>();
+        trafione = podsumowanie(wylosowane<wpisane);
         wpisane = wpisanieLiczb();
         System.out.println("Wpisane "+wpisane);
 
